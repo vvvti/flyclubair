@@ -7,21 +7,25 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  height: auto;
+  width: 100%;
 }
 
 .menubar {
   background-color: #001022;
   height: 101px;
-  width: 1600px;
+  width: 100%;
   z-index: 1;
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
 }
 
-/* Style for "Logo" */
-.header-logo {
-  width: 263px;
-  height: 52px;
+.layer-1 {
+  display: flex;
 }
