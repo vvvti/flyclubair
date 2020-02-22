@@ -16,12 +16,17 @@ img {
 }
 
 .menubar {
-  background-color: #001022;
-  height: 101px;
+  height: auto;
   width: 100%;
   z-index: 1;
   display: flex;
   position: fixed;
+  justify-content: center;
+  align-items: center;
+  background-image: url(components/layout/header/rectangle1.svg);
+}
+
+.header-logo {
   justify-content: center;
   align-items: center;
 }
