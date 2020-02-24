@@ -1,0 +1,12 @@
+.toolbar {
+  position: fixed;
+  width: 100%;
+  background: #001022;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+.toolbar__navigation {
+  display: flex;
+}
