@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import "./Toolbar.css";
 import logo from "./logo.svg";
+import DrawerToggleButton from "../RightDrawer/DrawerToggleButton";
+
+import "./Toolbar.css";
 
 class Toolbar extends Component {
   render() {
@@ -10,28 +12,8 @@ class Toolbar extends Component {
           <div className="toolbar__logo">
             <img src={logo} alt="logo"></img>
           </div>
-          <div className="toolbar_navigation-items">
-            <ul>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/">Introduction</a>
-              </li>
-              <li>
-                <a href="/">Why fly with us?</a>
-              </li>
-              <li>
-                <a href="/">Our Destinations</a>
-              </li>
-              <li>
-                <a href="/">How it works</a>
-              </li>
-              <li>
-                <a href="/">Sign up</a>
-              </li>
-            </ul>
-            <div></div>
+          <div>
+            <DrawerToggleButton />
           </div>
         </nav>
       </header>

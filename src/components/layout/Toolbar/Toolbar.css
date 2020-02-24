@@ -1,12 +1,16 @@
 .toolbar {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background: #001022;
   height: 100px;
-  top: 0;
-  left: 0;
 }
 
 .toolbar__navigation {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 1rem;
 }
