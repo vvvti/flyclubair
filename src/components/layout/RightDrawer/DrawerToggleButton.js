@@ -5,9 +5,9 @@ class DrawerToggleButton extends Component {
   render() {
     return (
       <button className="toggle-button">
-        <div className="toggle-button_line"></div>
-        <div className="toggle-button_line"></div>
-        <div className="toggle-button_line"></div>
+        <div className="toggle-button__line"></div>
+        <div className="toggle-button__line"></div>
+        <div className="toggle-button__line"></div>
       </button>
     );
   }

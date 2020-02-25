@@ -9,6 +9,7 @@ class Toolbar extends Component {
     return (
       <header className="toolbar">
         <nav className="toolbar__navigation">
+          <div></div>
           <div className="toolbar__logo">
             <img src={logo} alt="logo"></img>
           </div>
