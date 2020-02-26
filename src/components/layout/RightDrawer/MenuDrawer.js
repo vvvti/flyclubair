@@ -5,7 +5,7 @@ class MenuDrawer extends Component {
   render() {
     return (
       <nav className="menu-drawer">
-        <ul>
+        <ul className>
           <li>
             <a href="/">Home</a>
           </li>
@@ -23,6 +23,15 @@ class MenuDrawer extends Component {
           </li>
           <li>
             <a href="/">Sign up</a>
+          </li>
+          <li>
+            <a href="/">Facebook</a>
+          </li>
+          <li>
+            <a href="/">Tweeter</a>
+          </li>
+          <li>
+            <a href="/">LinkedIn</a>
           </li>
         </ul>
       </nav>

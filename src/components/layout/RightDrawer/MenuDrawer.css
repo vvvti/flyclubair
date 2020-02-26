@@ -6,11 +6,25 @@
   left: 0;
   width: 100%;
   text-align: center;
-  color: white;
-  padding-top: 67px;
+  padding-top: 3rem;
   z-index: 200;
   font-family: "Neutraface 2 Text Demi";
   font-size: 2rem;
-  line-height: 60pt;
+  line-height: 3.5rem;
+}
+.menu-drawer ul {
+  list-style: none;
+}
+
+.menu-drawer a {
+  color: white;
+}
+
+.menu-drawer a:hover {
+  color: #8d744a;
+}
+
+a:visited,
+a:link {
   text-decoration: none;
 }
