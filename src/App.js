@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import "./App.css";
 
@@ -7,17 +7,33 @@ import Layer1 from "./components/layout/Section_1/Layer1";
 import Layer4 from "./components/layout/Section_2/Layer4";
 import MenuDrawer from "./components/layout/RightDrawer/MenuDrawer";
 
-function App() {
-  return (
-    <div className="App" style={{ height: "100%" }}>
-      <Toolbar />
-      <MenuDrawer />
-      <main style={{ marginTop: "100px" }}>
-        <Layer1 />
-        <Layer4 />
-      </main>
-    </div>
-  );
-}
+class App extends Component {
+  state = {
+    menuDrawerOpen: false
+  };
 
+  drawerToggleClickHandler = () => {
+    this.setState(prevState => {
+      return { menuDrawerOpen: !prevState.menuDrawerOpen };
+    });
+  };
+
+  render() {
+    let menuDrawer;
+
+    if (this.state.menuDrawerOpen) {
+      menuDrawer = <MenuDrawer />;
+    }
+    return (
+      <div className="App" style={{ height: "100%" }}>
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+        {menuDrawer}
+        <main style={{ marginTop: "100px" }}>
+          <Layer1 />
+          <Layer4 />
+        </main>
+      </div>
+    );
+  }
+}
 export default App;

@@ -1,25 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "./logo.svg";
 import DrawerToggleButton from "../RightDrawer/DrawerToggleButton";
 
 import "./Toolbar.css";
 
-class Toolbar extends Component {
-  render() {
-    return (
-      <header className="toolbar">
-        <nav className="toolbar__navigation">
-          <div></div>
-          <div className="toolbar__logo">
-            <img src={logo} alt="logo"></img>
-          </div>
-          <div>
-            <DrawerToggleButton />
-          </div>
-        </nav>
-      </header>
-    );
-  }
-}
+const toolbar = props => (
+  <header className="toolbar">
+    <nav className="toolbar__navigation">
+      <div></div>
+      <div className="toolbar__logo">
+        <img src={logo} alt="logo"></img>
+      </div>
+      <div>
+        <DrawerToggleButton click={props.drawerClickHandler} />
+      </div>
+    </nav>
+  </header>
+);
 
-export default Toolbar;
+export default toolbar;

@@ -18,6 +18,7 @@
 
 .menu-drawer a {
   color: white;
+  outline: none;
 }
 
 .menu-drawer a:hover {
