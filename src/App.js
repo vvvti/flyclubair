@@ -19,15 +19,10 @@ class App extends Component {
   };
 
   render() {
-    let menuDrawer;
-
-    if (this.state.menuDrawerOpen) {
-      menuDrawer = <MenuDrawer />;
-    }
     return (
       <div className="App" style={{ height: "100%" }}>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        {menuDrawer}
+        <MenuDrawer show={this.state.menuDrawerOpen} />
         <main style={{ marginTop: "100px" }}>
           <Layer1 />
           <Layer4 />

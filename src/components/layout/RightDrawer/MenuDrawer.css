@@ -11,7 +11,12 @@
   font-family: "Neutraface 2 Text Demi";
   font-size: 2rem;
   line-height: 3.5rem;
+  transform: translateX(-100%);
 }
+menu-drawer.open {
+  transform: translateX(50%);
+}
+
 .menu-drawer ul {
   list-style: none;
 }
