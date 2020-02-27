@@ -12,9 +12,10 @@
   font-size: 2rem;
   line-height: 3.5rem;
   transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
 }
-menu-drawer.open {
-  transform: translateX(50%);
+.menu-drawer.open {
+  transform: translateX(0);
 }
 
 .menu-drawer ul {
