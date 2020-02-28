@@ -1,0 +1,16 @@
+.social-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-rectangle {
+  height: 50px;
+  width: 50px;
+  border: solid white 3px;
+  margin: 0 0.5rem 0 0.5rem;
+  display: flex;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
