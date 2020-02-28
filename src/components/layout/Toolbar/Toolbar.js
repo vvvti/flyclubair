@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import DrawerToggleButton from "../RightDrawer/DrawerToggleButton";
-import SocialHeader from "../SocialRightHeader/SocialHeader";
+import SocialHeader from "../SocialHeader/SocialHeader";
 
 import "./Toolbar.css";
 

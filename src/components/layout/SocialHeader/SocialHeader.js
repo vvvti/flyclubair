@@ -6,13 +6,13 @@ class SocialHeader extends Component {
   render() {
     return (
       <div className="social-header">
-        <a href="/">
-          <div className="social-rectangle">
-            <div>
+        <div className="social-rectangle">
+          <div>
+            <a href="/">
               <img src={twitter} alt="" />
-            </div>
+            </a>
           </div>
-        </a>
+        </div>
         <div className="social-rectangle"></div>
         <div className="social-rectangle"></div>
       </div>
