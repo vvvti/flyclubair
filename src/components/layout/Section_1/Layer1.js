@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import layer_1 from "./layer_1.png";
+import "./Layer1.css";
 
 class Layer1 extends Component {
   render() {
     return (
       <div className="layer-1">
-        <img src={layer_1} alt="layer_1"></img>
+        <h1>Members Only Executive Airline</h1>
+        <h3>Fly all you want from £1495 a month</h3>
       </div>
     );
   }

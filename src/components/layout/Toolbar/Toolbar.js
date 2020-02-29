@@ -12,7 +12,9 @@ const toolbar = props => (
         <SocialHeader />
       </div>
       <div className="toolbar__logo">
-        <img src={logo} alt="logo"></img>
+        <a href="/">
+          <img src={logo} alt="logo"></img>
+        </a>
       </div>
       <div>
         <DrawerToggleButton click={props.drawerClickHandler} />
