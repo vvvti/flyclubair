@@ -3,15 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(layer_1.png) no-repeat;
-  background-size: cover;
-  height: 100vh;
   color: white;
+  z-index: -1;
+}
+.layer1-desc {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 12rem;
 }
 
 .layer-1 h1 {
   font-size: 4rem;
-  text-align: center;
 }
 
 .layer-1 h3 {
