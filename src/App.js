@@ -4,8 +4,10 @@ import "./App.css";
 
 import Toolbar from "./components/layout/Toolbar/Toolbar";
 import Layer1 from "./components/layout/Section_1/Layer1";
-import Layer4 from "./components/layout/Section_2/Layer4";
+import Layer4 from "./components/layout/Section_3/Layer4";
 import MenuDrawer from "./components/layout/RightDrawer/MenuDrawer";
+import Layer2 from "./components/layout/Section_2/Layer2";
+import Layer3 from "./components/layout/Section_2/Layer3";
 
 class App extends Component {
   state = {
@@ -25,6 +27,8 @@ class App extends Component {
         <MenuDrawer show={this.state.menuDrawerOpen} />
         <main style={{ marginTop: "100px" }}>
           <Layer1 />
+          <Layer2 />
+          <Layer3 />
           <Layer4 />
         </main>
       </div>

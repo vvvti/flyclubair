@@ -9,7 +9,7 @@ class Layer1 extends Component {
         <img src={layer_1} alt="layer1 background"></img>
         <div className="layer1-desc">
           <h1>Members Only Executive Airline</h1>
-          <h3>Fly all you want from £1495 a month</h3>
+          <p>Fly all you want from £1495 a month</p>
         </div>
       </div>
     );
