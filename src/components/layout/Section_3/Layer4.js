@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import layer_4 from "./layer_4.png";
+import "./Layer4.css";
 
 class Layer4 extends Component {
   render() {
