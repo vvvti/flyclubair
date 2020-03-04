@@ -6,6 +6,9 @@ class Layer3 extends Component {
   render() {
     return (
       <div className="layer-3">
+        <div>
+          <img src={Layer_3} alt="layer_3"></img>
+        </div>
         <div className="layer3-text">
           <h1>Unlimited Travel</h1>
           <p>
@@ -14,9 +17,6 @@ class Layer3 extends Component {
             simplicity of quick booking and flexible changes through the
             FlyClubAir app or concierge.
           </p>
-        </div>
-        <div>
-          <img src={Layer_3} alt="layer_3"></img>
         </div>
       </div>
     );

@@ -3,5 +3,6 @@
 }
 .layer1-desc {
   position: absolute;
-  z-index: 100;
+  z-index: 50;
+  min-height: 450px;
 }
