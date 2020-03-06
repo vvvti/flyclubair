@@ -1,0 +1,25 @@
+.layer-5 {
+  color: rgb(145, 123, 76);
+  width: 100%;
+}
+
+.layer-5 h1 {
+  line-height: 1em;
+  padding: 0.5em 0 0 0;
+}
+
+.layer-5 p {
+  color: black;
+  line-height: 1em;
+  padding-bottom: 1em;
+  font-size: 0.8em;
+}
+
+.layer5-route h2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding-top: 5em;
+  font-size: 2em;
+}
