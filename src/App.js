@@ -9,6 +9,7 @@ import MenuDrawer from "./components/layout/RightDrawer/MenuDrawer";
 import Layer2 from "./components/layout/Section_2/Layer2";
 import Layer3 from "./components/layout/Section_2/Layer3";
 import Layer5 from "./components/layout/Section_4/Layer5";
+import Layer9 from "./components/layout/Section_5/Layer9";
 
 class App extends Component {
   state = {
@@ -32,6 +33,7 @@ class App extends Component {
           <Layer3 />
           <Layer4 />
           <Layer5 />
+          <Layer9 />
         </main>
       </div>
     );
